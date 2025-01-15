@@ -1,4 +1,5 @@
 * {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,6 +21,7 @@ nav {
 }
 a {
   margin-left: 10px;
+  color: #fff;
 }
 footer {
   background-color: #2c2c2d;
@@ -44,6 +46,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.main-images {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 20px;
 }
 .main-text {
   color: white;
