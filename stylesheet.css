@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #727272;
+  background-color: #D2665A;
 }
 header {
   color: #fff;
-  background-color: #2c2c2d;
+  background-color: #B82132;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@ label {
   font-size: 16px;
 }
 .main-container {
-  background-color: #646464;
+  background-color: #D2665A;
   display: flex;
   justify-content: center;
 }
@@ -80,7 +80,7 @@ label {
   font-size: 25px;
 }
 .lower-main-container {
-  background-color: #727272;
+  background-color: #F2B28C;
   display: flex;
   justify-content: center;
 }
@@ -97,7 +97,7 @@ label {
   margin: 20px;
 }
 .contact-container {
-  background-color: #646464;
+  background-color: #D2665A;
   display: flex;
   justify-content: center;
 }
@@ -122,4 +122,10 @@ footer {
 }
 .footer-text {
   color: white;
+}
+.showcase-container {
+  background-color: #D2665A;
+  height: 45%;
+  display: grid;
+
 }
