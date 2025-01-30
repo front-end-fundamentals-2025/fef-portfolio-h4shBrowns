@@ -23,6 +23,9 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+p {
+  color: white;
+}
 a {
   margin-left: 10px;
   color: #fff;
@@ -57,11 +60,6 @@ label {
 }
 .welcome-text {
   font-size: 16px;
-}
-.main-container {
-  background-color: #D2665A;
-  display: flex;
-  justify-content: center;
 }
 .main {
   width: 900px;
@@ -123,9 +121,27 @@ footer {
 .footer-text {
   color: white;
 }
-.showcase-container {
-  background-color: #D2665A;
-  height: 45%;
-  display: grid;
 
+.images {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 20px;
+}
+/* Grid code for assignment */
+.upper-container {
+  background-color: #D2665A;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+}
+
+.upper-container > div {
+  padding: 20px;
+}
+
+.showcase-images{
+  max-width: 200px;
+  max-height: 200px;
+  margin: 10px;
 }
