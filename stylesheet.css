@@ -37,6 +37,9 @@ ul {
 li {
   color: white;
   margin-bottom: 5px;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-delay: 0s;
 }
 input {
   width: 200px;
@@ -144,4 +147,32 @@ footer {
   max-width: 200px;
   max-height: 200px;
   margin: 10px;
+}
+
+.heart-icon{
+  animation-name: heartBeat;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+}
+
+@keyframes heartBeat {
+  0%{
+
+  }
+  50%{
+    scale: 1.5;
+  }
+  100%{
+    scale: 1;
+  }
+}
+
+@keyframes slideIn {
+  0%{
+    transform: translateX(-30px);
+  }
+  100%{
+    transform: translate(0);
+  }
 }
