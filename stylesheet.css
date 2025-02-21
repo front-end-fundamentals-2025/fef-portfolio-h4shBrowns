@@ -76,6 +76,10 @@ label {
   max-width: 100px;
   max-height: 100px;
   margin: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+.main-images:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 .main-text {
   color: white;
@@ -156,6 +160,8 @@ footer {
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
+
+
 
 @keyframes heartBeat {
   50% {
